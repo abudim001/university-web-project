@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=10.">
+        <title> University Website Design -Easy Tutorials</title>
+        <link rel="stylesheet" href="style.css">
+
+        
+
+        <!-- google font link -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+
+        <!--                        fontawesome.com link               -->
+        <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"  type='text/css'>
+
+    </head>
+    <body>
+        <section class="sub-header"> 
+            <nav>
+                <!-- logo -->
+                <a href="index.html"><img src="images/logo.png"></a> 
+                
+                <!-- Navigation itmes list -->
+                <div class="nav-links"  id="navLinks">
+                    <!-- Close Button (from fontawesome.com)  -->
+                    <i class="fa fa-times" onClick="hideMenu()"></i>
+
+                    <!-- click items  -->
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="course.html">COURSE</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div> 
+
+                <!-- Menu Button (from fontawesome.com)  -->
+                <i class="fa fa-bars" onClick="showMenu()"></i>
+            </nav>
+            <h1>Our Courses</h1>
+
+        </section>
+
+        <!------------ COURSE ------------->
+        <section class="course">
+            <h1>Courses We Offer</h1>
+            <p>We offer a wide array of educational programs, including intermediate, degree, and <br> postgraduate studies, 
+                    to help you achieve your academic and career aspirations </p>
+            
+            <div class="row">
+                <div class="course-col">
+                    <h3> Intermediate</h3>
+                    <p>Our intermediate courses are designed to provide a strong foundation for students transitioning from 
+                        secondary school to higher education. With a diverse range of subjects, students can explore their 
+                        interests while developing essential skills. Our experienced instructors guide students through this 
+                        crucial stage of academic growth, ensuring they are well-prepared for future educational endeavors.
+                    </p>
+                </div>
+                <div class="course-col">
+                    <h3> Degree</h3>
+                    <p>Our degree programs offer a comprehensive and specialized education in various fields. Whether you're 
+                        pursuing a Bachelor's degree in arts, sciences, business, or technology, our curriculum is designed 
+                        to foster critical thinking, problem-solving, and practical knowledge. We provide a supportive
+                            learning environment, cutting-edge resources, and opportunities for research and internships to 
+                            help students excel in their chosen career paths.
+                    </p>
+                </div>
+                <div class="course-col">
+                    <h3> Post Graduation</h3>
+                    <p>For those seeking advanced knowledge and specialization, our postgraduate programs offer a path to
+                            expertise and leadership in your field. With a focus on research, innovation, and advanced coursework,
+                            our postgraduate degrees empower students to make significant contributions to their industries and 
+                            communities. Our esteemed faculty and state-of-the-art facilities ensure that you receive the highest 
+                            quality education, preparing you for success at the highest levels of academia and industry.
+                    </p>
+                </div>
+            </div>
+
+        </section>
+
+        <!-------------------- facilities -------------------->
+        <section class="facilities">
+            <h1>Out facilities</h1>
+            <p>We pride ourselves on providing state-of-the-art facilities to enhance
+                 your learning experience. Our campuses feature modern classrooms, 
+                 well-equipped laboratories, extensive libraries, and recreational spaces, 
+                 creating a conducive environment for both academic and personal growth.
+                  We are dedicated to ensuring that you have access to the resources you need to excel in your studies</p>
+
+                  <div class="row">
+                    <div class="facilities-col">
+                        <img src="images/library.png">
+                        <h3>World Class Library</h3>
+                        <p>Explore a treasure trove of knowledge in our top-notch library, 
+                            your gateway to a wealth of information and research materials.</p>
+                    </div>
+                    <div class="facilities-col">
+                        <img src="images/basketball.png">
+                        <h3>Largest Play Ground</h3>
+                        <p>Enjoy basketball on our expansive court, the perfect place to 
+                            shoot some hoops and stay active.</p>
+                    </div>
+                    <div class="facilities-col">
+                        <img src="images/cafeteria.png">
+                        <h3>Tasty and Healthy Food</h3>
+                        <p>Savor delicious, nutritious meals at our cafeteria, 
+                            where flavor meets wellness.</p>
+                    </div>
+                  </div>
+        </section>
+
+
+        <!-------------------- Footer -------------------->
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>At our institution, our mission is to provide a superior educational experience 
+                that prepares students for success in their chosen fields. With a legacy of 
+                30 years in education, we are committed to academic excellence, innovation,
+                 and fostering a supportive learning community. Our dedicated faculty and staff 
+                 are passionate about nurturing the talents and aspirations of our students. 
+                 We offer a wide range of programs, access to cutting-edge resources, and a rich 
+                 history of student achievement. Join us on a journey of personal and academic 
+                 growth, where your aspirations can become reality</p>
+
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+            <p>Made with <i class="fa fa-heart-o"></i> by Adem Hussen</p>
+
+        </section>
+
+
+
+
+
+
+
+
+
+
+       <!-------------- Javascript for Toggle Menu  ------------------->
+
+        <script>
+
+            var navLinks = document.getElementById("navLinks")
+            function showMenu(){
+                navLinks.style.right = "0"
+            }
+
+
+            function hideMenu(){
+                navLinks.style.right = "-200px"
+            }
+
+
+
+
+        </script>
+
+    </body>
+</html>

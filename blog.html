@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=10.">
+        <title> University Website Design -Easy Tutorials</title>
+        <link rel="stylesheet" href="style.css">
+
+        
+
+        <!-- google font link -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+
+        <!--                        fontawesome.com link               -->
+        <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"  type='text/css'>
+
+    </head>
+    <body>
+        <section class="sub-header"> 
+            <nav>
+                <!-- logo -->
+                <a href="index.html"><img src="images/logo.png"></a> 
+                
+                <!-- Navigation itmes list -->
+                <div class="nav-links"  id="navLinks">
+                    <!-- Close Button (from fontawesome.com)  -->
+                    <i class="fa fa-times" onClick="hideMenu()"></i>
+
+                    <!-- click items  -->
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="course.html">COURSE</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div> 
+
+                <!-- Menu Button (from fontawesome.com)  -->
+                <i class="fa fa-bars" onClick="showMenu()"></i>
+            </nav>
+            <h1>Our Certificates & Online Programs For 2023</h1>
+
+        </section>
+
+        <!-------------------- blog page content -------------------->
+        <section class="blog-content">
+            <div class="row">
+                <div class="blog-left">
+                    <img src="images/certificate.jpg">
+                    <h2>Our Certificates & Online Programs For 2023</h2>
+                    <p>Explore our certificates and online programs for 2023, designed to 
+                        provide you with accessible and relevant education. Whether you're 
+                        looking to enhance your skills, advance your career, or embark on a
+                        new learning journey, our programs offer a flexible and convenient
+                        way to achieve your goals. With a focus on up-to-date curriculum 
+                        and expert instruction, we're here to help you succeed in the 
+                        ever-evolving world of 2023 and beyond.</p>
+                        <br>
+                        <p>Flexibility and Convenience: We understand the importance of balancing
+                             education with your busy life. That's why our online programs are 
+                             designed with flexibility in mind. Access course materials from anywhere,
+                            engage with experienced instructors, and collaborate with fellow students.
+                            Whether you're a wo54=rking professional, a busy parent, or someone pursuing
+                            lifelong learning, our online offerings for 2023 empower you to customize
+                                your educational journey according to your schedule and needs.</p>
+                        <br>
+                        <p>Join us in 2023 and embark on a transformative learning experience that 
+                            aligns with your aspirations. Our certificates and online programs are your
+                            gateway to new opportunities, enhanced skills, and a brighter future.".</p>
+
+                        <div class="comment-box">
+                            <h3>Leave a Comment</h3>
+
+                            <form class="comment-form">
+                                <input type="text" placeholder="Enter Name">
+                                <input type="text" placeholder="Enter Email">
+                                <textarea rows="5" placeholder="You Comment"></textarea>
+                                <button type="submit" class="hero-btn red-btn" >POST COMMENT</button>
+                            </form>
+                        </div>
+
+                </div>
+                <div class="blog-right">
+                    <h3>Post Categories</h3>
+                    <div>
+                        <span>Business Analytics</span>
+                        <span>21</span>
+                    </div>
+                    <div>
+                        <span>Data Science</span>
+                        <span>28</span>
+                    </div>
+                    <div>
+                        <span>Machine Learning</span>
+                        <span>15</span>
+                    </div>
+                    <div>
+                        <span>Business Analytics</span>
+                        <span>21</span>
+                    </div>
+                    <div>
+                        <span>Computer Science</span>
+                        <span>34</span>
+                    </div>
+                    <div>
+                        <span>AutoCad</span>
+                        <span>42</span>
+                    </div>
+                    <div>
+                        <span>Journalism</span>
+                        <span>22</span>
+                    </div>
+                    <div>
+                        <span>Comerce</span>
+                        <span>30</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-------------------- Footer -------------------->
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>At our institution, our mission is to provide a superior educational experience 
+                that prepares students for success in their chosen fields. With a legacy of 
+                30 years in education, we are committed to academic excellence, innovation,
+                 and fostering a supportive learning community. Our dedicated faculty and staff 
+                 are passionate about nurturing the talents and aspirations of our students. 
+                 We offer a wide range of programs, access to cutting-edge resources, and a rich 
+                 history of student achievement. Join us on a journey of personal and academic 
+                 growth, where your aspirations can become reality</p>
+
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+            <p>Made with <i class="fa fa-heart-o"></i> by Adem Hussen</p>
+
+        </section>
+
+
+
+
+
+
+
+
+
+
+       <!-------------- Javascript for Toggle Menu  ------------------->
+
+        <script>
+
+            var navLinks = document.getElementById("navLinks")
+            function showMenu(){
+                navLinks.style.right = "0"
+            }
+
+
+            function hideMenu(){
+                navLinks.style.right = "-200px"
+            }
+
+
+
+
+        </script>
+
+    </body>
+</html>
